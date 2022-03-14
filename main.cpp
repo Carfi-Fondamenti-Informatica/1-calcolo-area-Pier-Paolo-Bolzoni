@@ -7,9 +7,9 @@ int main(){
     cout<<"Inserisci i tre vertici"<<endl;
     cin >> a >> b >> c;
     Triangolo=(a*b)/2;
-    Quadrato=a*4;
+    Quadrato=a*a;
     Rettangolo=a*b;
-    Trapezio=((a*b)*c)/2;
+    Trapezio=((a+b)*c)/2;
     cout<<"l'area del triangolo e' "<<Triangolo<<endl;
     cout<<"l'area del Quadrato e' "<<Quadrato<<endl;
     cout<<"l'area del Rettangolo e' "<<Rettangolo<<endl;
